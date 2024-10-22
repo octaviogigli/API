@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases de Los Simpsons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Frases de Los Simpsons</h1>
+        <div class="grupo-entrada">
+            <label for="numFrases">Número de frases a mostrar:</label>
+            <input type="number" id="numFrases" min="1" max="10" value="1">
+            <button id="botonBuscar">Buscar frases</button>
+        </div>
+        <div id="resultados" class="resultados"></div>
+        <button id="botonLimpiar">Limpiar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
